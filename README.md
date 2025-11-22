@@ -1,4 +1,5 @@
 
+
 # Easel
 
 Easel lets you easily bind RDF vocabulary definitions to Mongoid models, letting
