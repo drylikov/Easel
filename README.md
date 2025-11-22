@@ -45,6 +45,7 @@ you want to bind to. You can then call `#to_rdf` on any instances of that model:
 
 
 
+
     class Example
       include Mongoid::Document
       include Easel::Bindable
