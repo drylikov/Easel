@@ -43,6 +43,7 @@ used for any other purpose within the RDF.rb universe.
 Simply add a `bind_to` declaration in your Mongoid class for each RDF vocabulary
 you want to bind to. You can then call `#to_rdf` on any instances of that model:
 
+
     class Example
       include Mongoid::Document
       include Easel::Bindable
