@@ -14,6 +14,7 @@ you easily define your models in terms of RDF vocabularies and access
 RDF.rbrepresentations of your models. This is in
 contrast to the two common ways of working with RDF data in practice today:
 
+
 1. Maintaining your data as 'pure' RDF via a project like
 RDF.rb. This is great for exposing the power of
 RDF but doesn't square with conventional Mongoid / Rails stacks.
