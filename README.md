@@ -46,6 +46,7 @@ you want to bind to. You can then call `#to_rdf` on any instances of that model:
 
 
 
+
     class Example
       include Mongoid::Document
       include Easel::Bindable
@@ -56,6 +57,7 @@ you want to bind to. You can then call `#to_rdf` on any instances of that model:
     e = Example.new(:title => "Of Mice and Men")
     e.to_rdf #=> An RDF::Graph containing a triple describing a DC.title of "Of
     Mice and Men"
+
 
 ## Getting fancy
 
