@@ -59,6 +59,7 @@ you want to bind to. You can then call `#to_rdf` on any instances of that model:
     Mice and Men"
 
 
+
 ## Getting fancy
 
 By default, `bind_to` will create fields for every property in the named
