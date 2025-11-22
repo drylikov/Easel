@@ -21,6 +21,7 @@ RDF.rb. This is great for exposing the power of
 RDF but doesn't square with conventional Mongoid / Rails stacks.
 
 
+
 2. Maintaining your data within a conventional Rails environment, and 'doing RDF' by exporting
 XML that happens to look like RDF-XML. This is fine for exposing resources as
 RDF, but passes over the great capabilities that RDF provides over and above
