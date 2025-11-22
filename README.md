@@ -66,6 +66,7 @@ you want to bind to. You can then call `#to_rdf` on any instances of that model:
 
 
 
+
 By default, `bind_to` will create fields for every property in the named
 vocabulary, each of type `String`. Easel provides some flexibility with this,
 via the following options:
