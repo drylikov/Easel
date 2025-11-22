@@ -49,6 +49,7 @@ used for any other purpose within the RDF.rb universe.
 
 
 
+
 ## How do I use it?
 
 Simply add a `bind_to` declaration in your Mongoid class for each RDF vocabulary
