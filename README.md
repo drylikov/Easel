@@ -30,6 +30,7 @@ serialization.
 Easel lets you live in between these two extremes. It helps you do this by doing
 two things:
 
+
 1. Providing a `bind_to` class method that lets you define the fields on your
 Mongoid model in terms of any number of RDF vocabularies. After binding to, say,
 the `DC` Vocabulary, your model will have fields corresponding to all of the
