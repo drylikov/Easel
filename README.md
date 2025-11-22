@@ -40,6 +40,7 @@ all others. These fields are normal Mongoid fields, and can be manipulated,
 saved and queried just like any other field.
 
 
+
 2. Providing a `#to_rdf` method on instances of the model that converts all
 properties defined by a bound vocabulary into an RDF::Graph object. This graph
 object can then be serialized into any format you desire, queried directly, or
